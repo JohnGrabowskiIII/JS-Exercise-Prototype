@@ -115,10 +115,10 @@ function Airplane(name) {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. Implicit binding which binds this to whatever is left of the . in an object
+    2. Explicit binding which uses either .call .apply or .bind which will either temporarily or permanently change what this is bound too
+    3. When using the new keyword this is bound to the object created
+    4. Otherwise this refers to the window or gobal object
   */
   
   
